@@ -14,5 +14,13 @@
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ullam esse accusamus officiis? Quam, mollitia magni. Dolores quasi vitae voluptatibus expedita numquam hic dolore provident odio rerum, modi repellat qui.</span>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ullam esse accusamus officiis? Quam, mollitia magni. Dolores quasi vitae voluptatibus expedita numquam hic dolore provident odio rerum, modi repellat qui.</span>
     </div>
+    <div>
+         
+<h2>While working on populating search params from the URL, I realized that the user can tamper the search params from the URL, in this case, API might fail and throw errors. To handle this scenario we have two possible solutions -</h2>	
+<ul>
+    <li>Again doing all the direct and indirect validations which we did on the flight booking page before initiating the search. This is called Look Before You Leap principle.</li>
+    <li>Let the user tamper data and show the error page if something went wrong from the API end. This is called Ask For Forgiveness principle.</li>
+</ul>
+    </div>
 </body>
 </html>
